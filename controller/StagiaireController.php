@@ -50,7 +50,6 @@ switch ($action) {
         break;
 
     case 'recordStagiaire':
-        die(var_dump($_POST));
         $args = array(
             'id_stagiaire' => FILTER_VALIDATE_INT,
             'nom' => FILTER_SANITIZE_STRING,
